@@ -1,0 +1,75 @@
+body{
+    background-image: url('https://images.pexels.com/photos/3339045/pexels-photo-3339045.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-y: center;
+}
+.disable{
+    pointer-events: none;
+}
+.contenedor{
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+  background-color: #ffffff1c;
+backdrop-filter: blur(10px);
+border-radius: 20px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 20px 10px;
+}  
+h1{
+ font-size:20px;
+ background-color: #ffffff0a;
+padding: 10px 0px;
+color:white;
+}
+#numeroPregunta{
+font-size: 16px;
+color: #ffefef81;
+font-weight: bold;
+}     
+#pregunta{
+font-size: 18px;
+color: #ffffff;
+font-weight: bold;
+}
+#botones button{
+ width:100%;
+ padding: 9px 0;
+ font-size:15px;
+ background: #c5111181;
+border: 1px solid #ffffff30;
+ color:white;
+ cursor: pointer;
+ font-weight: 600;
+ 
+
+} 
+#anterior, #repetir{
+background-color: #b9080878;
+color: #ffffff;
+border: none;
+font-size: 12px;
+padding: 5px 30px;
+border-radius: 5px;
+margin-top: 20px;
+cursor: pointer;
+}
+#mensaje, #descripcion{
+ color:white;
+}
+#mensaje{
+ font-size:30px;
+}
+#descripcion{
+ font-size:17px;
+}
+
+#imagen{
+max-width: 400px;
+object-fit: cover;
+margin-left: auto;
+margin-right: auto;
+display:block;
+margin-bottom: 15px;
+}
